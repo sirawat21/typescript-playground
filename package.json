@@ -15,5 +15,8 @@
     "exec": "node dist/main.js",
     "clean": "rm -rf dist/main.js",
     "start": "npm run clean && npm run build && npm run exec"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7"
   }
 }

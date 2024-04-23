@@ -1,6 +1,6 @@
 name: 'Typescript Playgound Action'
-description: 'Automation testing'
 author: 'Brett Sira'
+description: 'Automation testing typescript project'
 runs: 
-  using: 'node20'
+  using: 'node16'
   main: 'dist/main.js'
