@@ -3,7 +3,7 @@
         "target": "es5",
         "module": "commonjs",
         "moduleResolution": "node",
-        "lib": ["es2015", "dom"],
+        "lib": ["es6", "dom"],
 
         "rootDir": "/",
         "outDir": "./dist",
@@ -26,8 +26,10 @@
         "experimentalDecorators": true,
         "downlevelIteration": true,
         "declaration": true,
+        "pretty": true,
 
-        "pretty": true
+        "esModuleInterop": true,
+        "skipLibCheck": true
     },
     "include": ["typings/**/*", "src/helpers/**/*", "src/**/*", "src/helpers"]
 }

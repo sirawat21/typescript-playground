@@ -1,0 +1,6 @@
+name: 'Typescript Playgound Action'
+description: 'Automation testing'
+author: 'Brett Sira'
+runs: 
+  using: 'node20'
+  main: 'dist/main.js'
