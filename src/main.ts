@@ -1,5 +1,5 @@
 import * as core from "@actions/core";
-import _ from 'lodash';
+import _ from 'lodash2';
 
 const main = () => {
     try {
