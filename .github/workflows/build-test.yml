@@ -21,9 +21,10 @@ jobs:
             with:
               path: '**/node_modules'
               key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-
         - name: Install Dependecies
-          run: yarn install
+          run: 
+        - name: Build
+          run: npm run build
 
-        - name: Build Project
-          run: yarn run build
+        - name: Execute Code
+          uses: ./
