@@ -10,12 +10,10 @@ jobs:
     steps:
         - name: Checkout GitHub Action repository
           uses: actions/checkout@v2
-
         - name: Install NodeJS version 20
           uses: actions/setup-node@v2
           with:
               node-version: 20
-
         - name: Cache Dependencies
           uses: actions/cache@v2
             with:
