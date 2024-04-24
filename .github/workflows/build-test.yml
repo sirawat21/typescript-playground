@@ -6,7 +6,6 @@ on:
             - develop
 jobs:
     runs-on: ubuntu-latest
-
     steps:
         - name: Checkout GitHub Action repository
           uses: actions/checkout@v2
